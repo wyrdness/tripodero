@@ -1,0 +1,59 @@
+{
+  "category": "CRYPTID",
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/tripodero",
+    "maintainers": [{"name": "Wyrdness Team", "github": "wyrdness", "role": "maintainer"}],
+    "license": {"data": "CC0-1.0", "content": "CC-BY-4.0"}
+  },
+  "phenomenon": {
+    "id": "tripodero",
+    "name": "Tripodero",
+    "category": "CRYPTID",
+    "subcategory": "Fearsome Critter",
+    "tags": ["fearsome-critter", "lumberjack-folklore", "southwestern", "three-legged"],
+    "status": "folklore",
+    "description": {
+      "summary": "A three-legged creature with telescopic legs and a blowgun-like snout that shoots clay pellets to stun prey.",
+      "full": "The Tripodero is a fearsome critter from American lumberjack folklore, distinguished by its three legs (hence the name) and unusual hunting method. The creature stands on its tripod-like legs near clay banks, using its hollow, telescopic snout as a blowgun to shoot clay pellets at prey. The compressed air propulsion stuns victims, which the Tripodero then eats. Associated with southwestern regions and clay bank habitats, it represents the creative absurdity of fearsome critter tradition - an impossible creature with an ridiculous hunting mechanism."
+    },
+    "etymology": {
+      "origin": "American lumberjack folklore, early 1900s",
+      "meaning": "From 'tripod' - referring to its three-legged stance",
+      "first_use": "Early 20th century"
+    }
+  },
+  "classification": {
+    "taxonomy": {"category": "CRYPTID", "type": "Fearsome Critter", "subtype": "Impossible Anatomy", "variant": "Southwestern"}
+  },
+  "characteristics": {
+    "physical": {
+      "features": [
+        {"feature": "Legs", "description": "Three legs, hollow and telescopic", "frequency": "always"},
+        {"feature": "Snout", "description": "Hollow, blowgun-like", "frequency": "always"}
+      ]
+    },
+    "abilities": [
+      {"ability": "Clay shooting", "description": "Shoots clay pellets from snout to stun prey", "frequency": "always", "evidence_level": "folklore"},
+      {"ability": "Tripod stance", "description": "Stands on three legs for stability", "frequency": "always", "evidence_level": "folklore"}
+    ],
+    "behavior": {
+      "habitat_preference": ["clay banks", "southwestern regions"],
+      "diet": "Stunned prey hit by clay pellets",
+      "patterns": ["Stands on three legs", "Loads clay in snout", "Shoots with compressed air", "Eats stunned prey"]
+    }
+  },
+  "distribution": {
+    "range": {"description": "Southwestern United States in lumberjack folklore", "continents": ["North America"], "countries": ["United States"], "regions": ["Southwest", "Clay bank areas"]}
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": ["Lumberjack tall tales"],
+      "beliefs": "Never meant to be believed; absurd humor"
+    },
+    "purpose": {"entertainment": "Pure absurdist humor"}
+  },
+  "sources": [{"id": "cox-1910", "type": "book", "title": "Fearsome Creatures of the Lumberwoods", "authors": ["William T. Cox"], "date": "1910"}]
+}
