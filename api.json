@@ -1,59 +1,126 @@
 {
-  "category": "CRYPTID",
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/tripodero",
-    "maintainers": [{"name": "Wyrdness Team", "github": "wyrdness", "role": "maintainer"}],
-    "license": {"data": "CC0-1.0", "content": "CC-BY-4.0"}
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
   },
   "phenomenon": {
     "id": "tripodero",
     "name": "Tripodero",
+    "aliases": [],
     "category": "CRYPTID",
-    "subcategory": "Fearsome Critter",
-    "tags": ["fearsome-critter", "lumberjack-folklore", "southwestern", "three-legged"],
-    "status": "folklore",
+    "subcategory": "Unknown",
+    "tags": [
+      "folklore",
+      "mythology"
+    ],
+    "status": "documented",
     "description": {
-      "summary": "A three-legged creature with telescopic legs and a blowgun-like snout that shoots clay pellets to stun prey.",
-      "full": "The Tripodero is a fearsome critter from American lumberjack folklore, distinguished by its three legs (hence the name) and unusual hunting method. The creature stands on its tripod-like legs near clay banks, using its hollow, telescopic snout as a blowgun to shoot clay pellets at prey. The compressed air propulsion stuns victims, which the Tripodero then eats. Associated with southwestern regions and clay bank habitats, it represents the creative absurdity of fearsome critter tradition - an impossible creature with an ridiculous hunting mechanism."
+      "summary": "The Tripodero is a fearsome critter with three telescopic legs and a blowgun-like snout that shoots clay pellets to stun prey.",
+      "full": "The Tripodero is a fearsome critter with three telescopic legs and a blowgun-like snout that shoots clay pellets to stun prey. Found near clay banks in the American Southwest, it represents the absurd creativity of lumberjack folklore."
     },
     "etymology": {
-      "origin": "American lumberjack folklore, early 1900s",
-      "meaning": "From 'tripod' - referring to its three-legged stance",
-      "first_use": "Early 20th century"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
   "classification": {
-    "taxonomy": {"category": "CRYPTID", "type": "Fearsome Critter", "subtype": "Impossible Anatomy", "variant": "Southwestern"}
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Unknown",
+      "subtype": "Unknown",
+      "variant": "Unknown"
+    },
+    "related_phenomena": []
   },
   "characteristics": {
     "physical": {
-      "features": [
-        {"feature": "Legs", "description": "Three legs, hollow and telescopic", "frequency": "always"},
-        {"feature": "Snout", "description": "Hollow, blowgun-like", "frequency": "always"}
-      ]
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {"ability": "Clay shooting", "description": "Shoots clay pellets from snout to stun prey", "frequency": "always", "evidence_level": "folklore"},
-      {"ability": "Tripod stance", "description": "Stands on three legs for stability", "frequency": "always", "evidence_level": "folklore"}
-    ],
+    "abilities": [],
     "behavior": {
-      "habitat_preference": ["clay banks", "southwestern regions"],
-      "diet": "Stunned prey hit by clay pellets",
-      "patterns": ["Stands on three legs", "Loads clay in snout", "Shoots with compressed air", "Eats stunned prey"]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
   "distribution": {
-    "range": {"description": "Southwestern United States in lumberjack folklore", "continents": ["North America"], "countries": ["United States"], "regions": ["Southwest", "Clay bank areas"]}
+    "range": {
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
   "cultural": {
     "folklore": {
-      "traditions": ["Lumberjack tall tales"],
-      "beliefs": "Never meant to be believed; absurd humor"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
-    "purpose": {"entertainment": "Pure absurdist humor"}
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
+    }
   },
-  "sources": [{"id": "cox-1910", "type": "book", "title": "Fearsome Creatures of the Lumberwoods", "authors": ["William T. Cox"], "date": "1910"}]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
