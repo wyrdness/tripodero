@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/tripodero",
     "maintainers": [
       {
@@ -16,72 +16,114 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "tripodero",
     "name": "Tripodero",
     "aliases": [],
     "category": "CRYPTID",
-    "subcategory": "Unknown",
+    "subcategory": "Fearsome critter / lumberjack tall-tale creature",
     "tags": [
-      "folklore",
-      "mythology"
+      "fearsome-critters",
+      "lumberjack-folklore",
+      "north-america",
+      "tall-tale",
+      "california",
+      "humorous-folklore",
+      "chaparral"
     ],
-    "status": "documented",
+    "status": "historical",
     "description": {
-      "summary": "The Tripodero is a fearsome critter with three telescopic legs and a blowgun-like snout that shoots clay pellets to stun prey.",
-      "full": "The Tripodero is a fearsome critter with three telescopic legs and a blowgun-like snout that shoots clay pellets to stun prey. Found near clay banks in the American Southwest, it represents the absurd creativity of lumberjack folklore."
+      "summary": "A fearsome critter of North American lumberjack folklore, native to the Californian chaparral. First described by William T. Cox in 1910 as a small, kangaroo-tailed creature with two telescopic legs and a blowgun-like snout that fires mud pellets at prey.",
+      "full": "The Tripodero is a tall-tale beast first described in William T. Cox's Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts (Judd & Detweiler, Washington, D.C., 1910), illustrated by Coert Du Bois with mock-Latin classifications by U.S. Forest Service dendrologist George B. Sudworth. According to Cox, the Tripodero of the Californian chaparral and foothills 'defies all scientific attempts at classification'. Its small but solidly built body stands on two telescopic legs balanced behind by a kangaroo-like tail, and its head is described as 'nearly all snout'. It hunts birds and small animals by extending its legs to raise itself above the brush, then firing a clay pellet (stored in its left cheek) from its blowgun-like snout. Like other fearsome critters, the Tripodero was never advanced as a real animal but as bunkhouse comedy and as a hazing device for greenhorn loggers."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Cox (1910); a mock-zoological neologism evoking 'tripod' and Latinate species naming.",
+      "meaning": "Three-legged shooter (referencing two telescopic legs and balancing tail)",
+      "first_use": "1910, in Cox's Fearsome Creatures of the Lumberwoods"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Fearsome critter (tall-tale beast)",
+      "subtype": "Mechanical/biological hybrid",
+      "variant": "Californian chaparral"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "fearsome-critters", "name": "Fearsome critters (tradition)", "relationship": "superset", "description": "Genre of North American lumberjack tall-tale beasts" },
+      { "id": "tote-road-shagamaw", "name": "Tote-Road Shagamaw", "relationship": "similar", "description": "Companion fearsome critter from Cox 1910" },
+      { "id": "hidebehind", "name": "Hidebehind", "relationship": "similar", "description": "Another lumberjack tall-tale beast" },
+      { "id": "agropelter", "name": "Agropelter", "relationship": "similar", "description": "Cox 1910 critter" },
+      { "id": "splintercat", "name": "Splintercat", "relationship": "similar", "description": "Cox 1910 critter" },
+      { "id": "hugag", "name": "Hugag", "relationship": "similar", "description": "Cox 1910 critter" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Telescopic legs", "description": "Two extensible legs that allow the creature to raise itself above brush", "frequency": "always" },
+        { "feature": "Kangaroo-like balancing tail", "description": "Long tail used as a third support behind the body", "frequency": "always" },
+        { "feature": "Blowgun-like snout", "description": "Head described as 'nearly all snout', functioning as a blowgun", "frequency": "always" },
+        { "feature": "Cheek pellet store", "description": "Clay/mud pellets stored in the left cheek, fired through the snout to stun prey", "frequency": "always" }
+      ],
+      "morphology": "Small, solid body on two telescopic legs and a kangaroo-style tail; the head is dominated by an elongated blowgun-like snout."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Telescopic raising", "description": "Extends legs to elevate body above the chaparral to spot prey", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Pellet projection", "description": "Fires a clay pellet from its snout to stun small birds and mammals", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "diurnal",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["Californian chaparral", "Sierra Nevada foothills", "clay banks"],
+      "diet": "Small birds and mammals stunned by clay pellets",
+      "patterns": [
+        "Hunts from concealment in dense undergrowth",
+        "Extends telescopic legs to spot prey above brush",
+        "Frequents clay banks where pellet ammunition is gathered"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Cox locates the Tripodero in the Californian chaparral and the foothills of the Sierra Nevada.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["California chaparral", "Sierra Nevada foothills"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1910",
+        "circa": false,
+        "source": "Cox, W. T., Fearsome Creatures of the Lumberwoods (Judd & Detweiler, 1910)"
+      },
+      "peak_activity_periods": [
+        { "period": "Late 19th-early 20th century", "description": "Peak of North American lumberjack tall-tale culture" }
+      ],
+      "seasonal_patterns": "Not specified."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Late 19th-/early 20th-century North American lumber-camp oral tradition.",
+      "earliest_accounts": "First print appearance in Cox (1910).",
+      "folklore_connections": "Part of the broader fearsome critters tradition; reflects mechanical-age fascinations (the 'mechanical' Tripodero) typical of early-industrial American tall tales."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Pre-1910", "event": "Oral tradition of the Tripodero circulating in Western lumber and ranch camps", "significance": "Cultural baseline", "source": "Lumber-camp oral tradition" },
+      { "date": "1910", "event": "William T. Cox publishes Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts (Judd & Detweiler, Washington, D.C.), illustrated by Coert Du Bois, with Latin classifications by George B. Sudworth - including the Tripodero", "significance": "First print appearance; canonical text", "source": "Cox (1910)" },
+      { "date": "1939", "event": "Henry H. Tryon publishes Fearsome Critters (Idlewild Press, Cornwall, NY), expanding the genre", "significance": "Major successor work", "source": "Tryon (1939)" }
+    ],
+    "modern_era": "The Tripodero is now a folkloric and literary curiosity, appearing in reissued editions of Cox (1910) and in academic studies of the fearsome critters tradition."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,6 +134,7 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
@@ -99,28 +142,62 @@
     "audio": [],
     "trace": []
   },
+
   "theories": {
     "paranormal": [],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Tall-tale tradition",
+        "description": "The Tripodero is a humorous lumberjack tall-tale beast, never seriously claimed as real. Its mechanical-creature framing is consistent with early-industrial American 'critter' humour.",
+        "proponents": ["William T. Cox (descriptive)", "Henry H. Tryon", "Folklorists of the lumber camps"],
+        "evidence_cited": ["Anatomical impossibility", "Cox (1910) tall-tale framing", "Pattern of mechanical / biological-hybrid critters in the genre"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "North American lumber-camp tall tales",
+        "Fearsome critters genre",
+        "Western 'desert and mountain beasts' subset"
+      ],
+      "stories": [
+        "Tripodero shooting birds with clay pellets from the chaparral"
+      ],
+      "beliefs": "Treated by tellers and listeners as humorous tall tales rather than literal claims."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts - William T. Cox (Judd & Detweiler, 1910)",
+        "Fearsome Critters - Henry H. Tryon (Idlewild Press, 1939)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Frequently anthologized in collections of American tall tales"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "William T. Cox", "affiliation": "U.S. Forest Service / Minnesota State Forester", "contribution": "Author of the foundational fearsome-critters compilation (1910)", "period": "1910s" },
+      { "name": "Coert Du Bois", "affiliation": "U.S. Forest Service", "contribution": "Illustrator of Cox (1910)", "period": "1910s" },
+      { "name": "George B. Sudworth", "affiliation": "U.S. Forest Service dendrologist", "contribution": "Provided mock-Latin classifications for Cox (1910)", "period": "1910s" },
+      { "name": "Henry H. Tryon", "affiliation": "Forester / writer", "contribution": "Author of Fearsome Critters (1939)", "period": "1930s" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Folklore studies of the fearsome critters genre at academic institutions (e.g. University of Nebraska)."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-fclw", "type": "website", "title": "Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fearsome_Creatures_of_the_Lumberwoods,_With_a_Few_Desert_and_Mountain_Beasts", "accessed": "2026-05-07" },
+    { "id": "wikipedia-fearsomecritters", "type": "website", "title": "Fearsome critters", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fearsome_critters", "accessed": "2026-05-07" },
+    { "id": "cox-1910", "type": "book", "title": "Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts", "authors": ["William T. Cox"], "publication": "Judd & Detweiler, Washington, D.C.", "date": "1910" },
+    { "id": "tryon-1939", "type": "book", "title": "Fearsome Critters", "authors": ["Henry H. Tryon"], "publication": "Idlewild Press, Cornwall, NY", "date": "1939" },
+    { "id": "lumberwoods-tripodero", "type": "website", "title": "Tripodero", "publication": "Lumberwoods (lib.lumberwoods.org)", "url": "http://www.lib.lumberwoods.org/fclw/tripodero.html", "accessed": "2026-05-07" }
+  ]
 }
